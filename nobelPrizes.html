@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobel Prize || Contact Us</title>
+
+  <!-- Bootsrtap CSS CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- FONTAWESOME CSS CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- OWL SLIDER CSS -->
+  <link rel="stylesheet" href="assests/css/owl.carousel.min.css">
+
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="assests/css/style.css">
+
+  <!-- Favicon CSS -->
+  <link rel="shortcut icon" href="assests/images/favicon/favicon.png" type="image/x-icon">
+
+</head>
+
+<body id="top-header">
+
+  <!--================= NAVBAR SECTION START =========================-->
+  <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+    <div class="container-fluid">
+
+      <!-- Navbar logo  -->
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="assests/images/logo/nobelverse.png" alt="">
+      </a>
+
+
+      <!-- toggler Start -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- collapse -->
+      <div class="collapse navbar-collapse id" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Nobel Prizes & Laureate's</a>
+          </li>
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact US</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!--================= NAVBAR SECTION END =========================-->
+
+  <!--==================== BANNER SECTION START ============================= -->
+  <section class="page-banner-area page-contact">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-md-12 col-12 text-center">
+          <div class="page-banner-content">
+
+            <h1 class="typed-text" style="display: none;"></h1>
+            <h1 class="display-4 font-weight-bold">Nobel Prizes & Laureate's</h1>
+            <p>Celebrating excellence and the minds that changed the world.</p>
+          </div>
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+  <!--==================== BANNER SECTION END ============================= -->
+
+  <!--==== Team Vs, Latest News, NEXT MATCH, TABLE, VIDEO, OUR BLOG, & FOOTER SECTION START ====-->
+  <div class="site-wrap" id="matches">
+
+    <!--==================== NOBEL PRIZE SECTION START ============================= -->
+    <div id="about-sections-container"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const aboutSectionsContainer = document.getElementById("about-sections-container");
+        const sectionsData = [
+          {
+            title: "Peace",
+            description: "Explore significant details and noteworthy achievements associated with the prestigious Nobel Peace Prize.",
+            news: [
+              { img: "assests/images/nobel_prize/malala-yousuf.jpg", title: "Malala Yousafzai: Nobel Peace Prize for Her Fight for Girls' Education", author: "Mellissa Allison", date: "June 19, 2024", category: "Education", authorImg: "assests/images/latestnews photos/person_3.jpg" },
+              { img: "assests/images/nobel_prize/obama.jpg", title: "Barack Obama: Nobel Peace Prize for His Efforts to Strengthen International Diplomacy", author: "John Doe", date: "Feb 23, 2024", category: "Diplomacy", authorImg: "assests/images/latestnews photos/person_4.jpg" },
+              { img: "assests/images/nobel_prize/dalai_lama.jpg", title: "Dalai Lama: Nobel Peace Prize for Promoting Non-Violent Conflict Resolution", author: "Sarah Smith", date: "March 10, 2024", category: "Human Rights", authorImg: "assests/images/latestnews photos/person_5.jpg" },
+           ]
+          },
+          {
+            title: "Physics",
+            description: "Discover groundbreaking discoveries in physics that have shaped modern science and technology.",
+            news: [
+              { img: "assests/images/nobel_prize/einsteinalbert.jpg", title: "Albert Einstein: Nobel Prize for His Theory of Relativity and Impact on Modern Physics", author: "Mellissa Allison", date: "May 23, 2024", category: "Physics", authorImg: "assests/images/latestnews photos/person_2.jpg" },
+              { img: "assests/images/nobel_prize/marietriplet.jpg", title: "Marie Curie: Nobel Prize for Her Discovery of Radioactivity", author: "John Doe", date: "Oct 10, 2023", category: "Science", authorImg: "assests/images/latestnews photos/person_3.jpg" },
+              { img: "assests/images/nobel_prize/planck.jpg", title: "Max Planck: Nobel Prize for Discovering Quantum Theory", author: "Sarah Smith", date: "April 5, 2024", category: "Physics", authorImg: "assests/images/latestnews photos/person_4.jpg" },
+           ]
+          },
+          {
+            title: "Chemistry",
+            description: "Unveil the remarkable contributions in chemistry that have revolutionized industries and research.",
+            news: [
+              { img: "assests/images/nobel_prize/marietriplet.jpg", title: "Marie Curie: Nobel Prize for Her Groundbreaking Work in Radioactivity", author: "Mellissa Allison", date: "Apr 05, 2024", category: "Science", authorImg: "assests/images/latestnews photos/person_1.jpg" },
+              { img: "assests/images/nobel_prize/dorothyhodgkin.jpg", title: "Dorothy Hodgkin: Nobel Prize for Her X-Ray Crystallography Studies of Penicillin", author: "John Doe", date: "Mar 3, 2024", category: "Chemistry", authorImg: "assests/images/latestnews photos/person_2.jpg" },
+              { img: "assests/images/nobel_prize/linus-pauling.jpg", title: "Linus Pauling: Nobel Prize for His Work on the Nature of the Chemical Bond", author: "Sarah Smith", date: "Feb 15, 2023", category: "Chemistry", authorImg: "assests/images/latestnews photos/person_3.jpg" },
+           ]
+          },
+          {
+            title: "Medicine",
+            description: "Learn about the life-changing medical advancements recognized by the Nobel Prize.",
+            news: [
+              { img: "assests/images/nobel_prize/medicine.jpg", title: "Edward Jenner: Nobel Prize for Developing the First Successful Smallpox Vaccine", author: "John Doe", date: "Oct 10, 2023", category: "Healthcare", authorImg: "assests/images/latestnews photos/person_4.jpg" },
+              { img: "assests/images/nobel_prize/alexander-fleming.jpg", title: "Alexander Fleming: Nobel Prize for Discovering Penicillin", author: "Mellissa Allison", date: "Sept 14, 2023", category: "Medicine", authorImg: "assests/images/latestnews photos/person_5.jpg" },
+              { img: "assests/images/nobel_prize/craig-venter.jpg", title: "Craig Venter: Nobel Prize for Mapping the Human Genome", author: "Sarah Smith", date: "Nov 12, 2024", category: "Genetics", authorImg: "assests/images/latestnews photos/person_6.jpg" },
+            ]
+          },
+          {
+            title: "Literature",
+            description: "Delve into the world of Nobel Prize-winning literature that has inspired generations.",
+            news: [
+              { img: "assests/images/nobel_prize/literature.jpg", title: "Gabriel García Márquez: Nobel Prize for His Mastery of Magical Realism", author: "Mellissa Allison", date: "Sept 15, 2023", category: "Literature", authorImg: "assests/images/latestnews photos/person_5.jpg" },
+              { img: "assests/images/nobel_prize/ernest-hemingway.jpg", title: "Ernest Hemingway: Nobel Prize for His Distinctive Writing Style and Storytelling", author: "John Doe", date: "Mar 30, 2024", category: "Literature", authorImg: "assests/images/latestnews photos/person_6.jpg" },
+              { img: "assests/images/nobel_prize/v-s-naipaul.jpg", title: "V.S. Naipaul: Nobel Prize for His Exploration of Postcolonial Themes", author: "Sarah Smith", date: "Oct 22, 2024", category: "Literature", authorImg: "assests/images/latestnews photos/person_7.jpg" },
+            ]
+          },
+          {
+            title: "Economics",
+            description: "Understand the impact of economic theories and research awarded with the Nobel Prize.",
+            news: [
+              { img: "assests/images/nobel_prize/economics.jpg", title: "Milton Friedman: Nobel Prize for His Work on Monetary Policy", author: "Mark Johnson", date: "Aug 20, 2023", category: "Economics", authorImg: "assests/images/latestnews photos/person_6.jpg" },
+              { img: "assests/images/nobel_prize/paul-samuelson.jpg", title: "Paul Samuelson: Nobel Prize for His Pioneering Work in Economic Theory", author: "Sarah Smith", date: "July 18, 2024", category: "Economics", authorImg: "assests/images/latestnews photos/person_7.jpg" },
+              { img: "assests/images/nobel_prize/robert-shiller.jpg", title: "Robert Shiller: Nobel Prize for His Work on Asset Prices", author: "John Doe", date: "Dec 5, 2023", category: "Economics", authorImg: "assests/images/latestnews photos/person_8.jpg" },
+            ]
+          }
+        ];
+
+        sectionsData.forEach((section, index) => {
+          const bgClass = index % 2 !== 0 ? "bg-dark" : "";
+
+          let newsHtml = '';
+          section.news.forEach(news => {
+            newsHtml += `
+                <div class="col-md-4" style="margin-bottom: 4%;">
+                  <div class="post-entry">
+                    <a href="#">
+                      <img src="${news.img}" alt="${news.title}" class="img-fluid">
+                    </a>
+                    <div class="caption">
+                      <div class="caption-inner">
+                        <h3 class="mb-3">${news.title}</h3>
+                        <div class="author d-flex align-items-center">
+                          <div class="img mb-2 mr-3">
+                            <img src="${news.authorImg}" alt="">
+                          </div>
+                          <div class="text">
+                            <h4>${news.author}</h4>
+                            <span>${news.date} &bullet; ${news.category}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>`;
+          });
+
+          aboutSectionsContainer.innerHTML += `
+              <div class="about_section layout_padding ${bgClass}" id="banner${index + 1}">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="about_taital_main">
+                        <div class="row">
+                          <div class="col-6 title-section">
+                            <h2 class="heading">${section.title}</h2>
+                          </div>
+                        </div>
+                        <h1 class="about_taital" style="font-size: 20px;">${section.description}</h1>
+                      </div>
+                    </div>
+                    <div class="latest-news">
+                      <div class="container">
+                        <div class="row no-gutters">
+                          ${newsHtml}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>`;
+        });
+      });
+    </script>
+    <!--==================== NOBEL PRIZE SECTION END ============================= -->
+
+        <!--================= OUR BLOG SECTION START =========================-->
+        <div class="site-section">
+          <div class="container">
+    
+            <div class="row">
+              <div class="col-6 title-section">
+                <h2 class="heading headingblog">Our Blog</h2>
+              </div>
+            </div>
+    
+            <div class="row blogpic">
+    
+              <div class="col-lg-6">
+                <div class="custom-media d-flex">
+    
+                  <div class="img mr-4">
+                    <img src="assests/images/blog/nelsonmandela.webp" alt="Image" class="img-fluid">
+                  </div>
+    
+                  <div class="text">
+                    <span class="meta">April 20, 2024</span>
+                    <h3 class="mb-4"><a href="#">Nelson Mandela's Journey to Peace: How Did His Leadership Help End
+                        Apartheid?</a></h3>
+                    <p>Mandela's unwavering fight for equality transformed South Africa and inspired the world.</p>
+                    <p><a href="#">Read more</a></p>
+                  </div>
+    
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="custom-media d-flex">
+    
+                  <div class="img mr-4">
+                    <img src="assests/images/blog/adayonath.jpg" alt="Image" class="img-fluid">
+                  </div>
+    
+                  <div class="text">
+                    <span class="meta">May 10, 2024</span>
+                    <h3 class="mb-4"><a href="#">Ada Yonath's Ribosome Research: What Breakthroughs in Medicine Stemmed from
+                        Her Discoveries?</a></h3>
+                    <p>Yonath's work on the structure of ribosomes paved the way for advancements in antibiotics.</p>
+                    <p><a href="#">Read more</a></p>
+                  </div>
+    
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </div>
+        <!--================= OUR BLOG SECTION END =========================-->
+
+    <!--================= FOOTER SECTION START =========================-->
+    <footer class="bg-dark">
+
+      <section class="footer">
+        <div class="footerp"><span>Get connected with us on social networks:</span></div>
+
+        <div class="footericon">
+          <a href="#" class="socialicon"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="socialicon"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="socialicon"><i class="fa-brands fa-google"></i></a>
+          <a href="#" class="socialicon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="socialicon"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="socialicon"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </section>
+
+      <hr style="color: white;">
+
+      <section>
+        <div class="container ">
+          <div class="row">
+
+            <div class="footerbottom col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <img class="" src="assests/images/logo/nobelverse.png">
+              <p>Tasked with managing the Nobel Prize fortune and having the ultimate responsibility for fulfilling the
+                intentions of Nobel's will.</p>
+            </div>
+
+            <div class=" footerbottom col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="footerheading text-uppercase fw-bold mb-4">LINKS</h6>
+              <p><a href="index.html" class="text-reset">Home</a></p>
+              <p><a href="#" class="text-reset">Nobel Prizes & Laureste's</a></p>
+              <p><a href="events_news.html" class="text-reset">Events & News</a></p>
+              <p><a href="gallery.html" class="text-reset">Gallery</a></p>
+            </div>
+
+            <div class="footerbottom col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="footerheading text-uppercase fw-bold mb-4">Useful</h6>
+              <p><a href="aboutus.html" class="text-reset">About Us</a></p>
+              <p><a href="contact.html" class="text-reset">Contact Us<a></p>
+              <p><a href="#!" class="text-reset">Terms & Conditions</a></p>
+              <p><a href="#!" class="text-reset">FAQ's</a></p>
+            </div>
+
+            <div class="footerbottom col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="footerheading text-uppercase fw-bold mb-4">Contact</h6>
+              <p class="text-reset"><i class="socialicon fas fa-home me-3"></i>karachi, KY 72500, PK</p>
+              <p class="text-reset"><i class="socialicon fas fa-envelope me-3"></i>support@daniyal-khan.com</p>
+              <p class="text-reset"><i class="socialicon fas fa-phone me-3"></i>+92 000 00000 000</p>
+              <p class="text-reset"><i class="socialicon fas fa-print me-3"></i>+92 000 00000 000</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="Copyright p-4">
+        <p class="footer-copy">
+
+          Copyright &copy;
+          <script>var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)</script>
+          Designed &amp; Developed by
+          <a class="current-year" href="https://daniyal-khan.com/">Daniyal Khan</a>
+        </p>
+
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!--================= FOOTER SECTION END =========================-->
+
+  </div>
+  <!--==== Team Vs, Latest News, NEXT MATCH, TABLE, VIDEO, OUR BLOG, & FOOTER SECTION END ====-->
+
+
+  <!--  Page Scroll to Top  -->
+
+  <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
+    <i class="fa fa-angle-up"></i>
+  </a>
+
+  <!-- Sweet Alert Js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <!-- TYPED JS LINK -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Bootstrap JS CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- JQUERRY JS -->
+  <script src="assests/js/jquery-3.3.1.min.js"></script>
+
+  <!-- JQUERRY COUNTDOWN JS -->
+  <script src="assests/js/jquery.countdown.min.js"></script>
+
+  <!-- OWL SLIDER JS -->
+  <script src="assests/js/owl.carousel.min.js"></script>
+
+  <!--------- CUSTOM JS  ---------->
+  <script src="assests/js/script.js"></script>
+
+</body>
+
+</html>
