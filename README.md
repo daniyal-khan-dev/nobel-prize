@@ -10,11 +10,9 @@ A multi-page static website dedicated to the Nobel Prize — exploring its histo
 | Page | Description |
 |------|-------------|
 | `index.html` | Homepage with banner, highlights, and countdown |
-| `aboutus.html` | About the Nobel Prize and its legacy |
 | `nobelPrizes.html` | Detailed breakdown of each Nobel Prize category |
-| `laursetes.html` | Explore notable Nobel Laureates |
-| `events_news.html` | Latest events and news |
 | `gallery.html` | Photo gallery |
+| `aboutus.html` | About the Nobel Prize and its legacy |
 | `contact.html` | Contact information form |
 
 ---
@@ -39,11 +37,9 @@ A multi-page static website dedicated to the Nobel Prize — exploring its histo
 ```
 .
 ├── index.html
-├── aboutus.html
 ├── nobelPrizes.html
-├── laursetes.html
-├── events_news.html
 ├── gallery.html
+├── aboutus.html
 ├── contact.html
 └── assests/
     ├── css/
@@ -90,15 +86,15 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Author
 
 **Daniyal Khan**
-- Protfolio: https://daniyal-khan.com/
+- Portfolio: https://daniyal-khan.com/
 - GitHub: https://github.com/daniyal-khan-dev
 - LinkedIn: www.linkedin.com/in/m-daniyal-khan
-- Email: support@daniyal-khan.com
+- Email: info@daniyal-khan.com
 
 ## Support
 
 If you have any questions or need help, please:
-- Open on Protfolio
+- Open on Portfolio
 - Open an issue on GitHub
 - Connect on LinkedIn
 - Contact via email
